@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>AneTRY - Avaliar um Jogo</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body id="form">
+<!-- crio o conteiner para divisão e organização e para chamar a página e um id para melhor estilização no css -->
+    <div class="conteiner">
+
+    <div class="menu">
+      <nav>
+        <ul>
+          <li><a href="index.html">
+            
+          <img src="img/sakura.png" alt="Sakura" class="icon-flor">
+          Início
+
+          </a>
+        </li>
+          <li><a href="form.html" class="active">
+            <img src="img/sakura.png" alt="Sakura" class="icon-flor">
+            Avaliar um Jogo
+          </a>
+          <li><a href="about.html">
+          <img src="img/sakura.png" alt="Sakura" class="icon-flor">
+          Conheça AneTRY
+          </a>
+        </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- parte da avaliação do usuário -->
+    <div class="conteudo">
+        <h1>Envie seu Review</h1>
+        <form action="formAction.html" method="get">
+        <label for="nome">Nome do Jogo:</label><br>
+        <input type="text"  id="nome" name="nome" required> <br><br>
+
+        <label for="nota">Nota de 0 a 10:</label><br>
+        <input type="number" id="nota" name="nota" min="0" max="10" required><br><br>
+
+        <label for="review">Deixe sua Review:</label><br>
+        <textarea id="review" name="review" rows="6" cols="60"></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+        </form>
+    </div>
+    </div>
+</body>
+</html>

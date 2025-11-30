@@ -1,0 +1,361 @@
+/* passo as fontes que irei utilizar */
+
+@font-face {
+  font-family: 'Milk Kids';
+  src: url('../fonts/Milk Kids.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pixel Game';
+  src: url('../fonts/Pixel Game.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'American Captain';
+  src: url('../fonts/American Captain.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Super Adorable';
+  src: url('../fonts/Super Adorable.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fairy Clovers';
+  src: url('../fonts/Fairy Clovers.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* estilo padrão para o site */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Super Adorable', sans-serif;
+  font-size: 40px;
+  background-color: #faf1fe;
+  color: #ebc8fb;
+}
+
+.conteiner{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-right: 320px; 
+  padding: 20px;
+}
+
+/* menu de navegação. lado direito */
+
+.menu{
+ width: 300px;
+ height: 100vh;
+ padding: 30px;
+ background: #ebc8fb;
+ top: 0;
+ right: 0;
+ overflow-y: auto;
+ box-sizing: border-box;
+ position: fixed;
+  font-family: 'Milk Kids', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  margin: 0;
+  padding: 50px;
+  line-height: 1.8;
+}
+
+
+.icon-flor {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  vertical-align: middle;
+    filter: drop-shadow(1px 2px 2px  #ffffff);
+}
+
+.menu ul {
+  list-style: none; 
+  padding-left: 0;  
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 20px;
+  line-height: 1.5
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+}
+
+.menu ul li a:hover {
+  color: #ff9bda; 
+}
+
+/* organização das imagens */
+
+#index .jogos ul{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  max-width: 100%;
+  border-radius: 20px;
+  list-style: none; 
+  padding-left: 0;  
+  margin: 0;
+}
+
+.jogos ul li {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;    
+  text-align: center;     
+}
+
+#index .jogos ul li img{
+  height:150px;
+  width:150px;
+  object-fit: cover;
+  border-radius: 20%;
+  margin-bottom: 10px;
+  filter: drop-shadow(1px 3px 5px  #ebc8fb);
+}
+
+#index .jogos ul li{
+  text-align: center;
+}
+
+#index .jogos ul li span {
+  font-family: 'Milk Kids', sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  display: block;
+  text-shadow: 1px 1px 5px #fe7bc2;
+}
+
+
+/* conteudo, lado esquerdo - about */
+
+#about .conteiner{
+  display: block;
+  flex-direction: column;
+}
+
+/* para centralizar os textos */
+#about .conteudo h1{
+  font-family: 'Fairy Clovers';
+  color: #ff9bda;
+  text-shadow: 1px 3px 5px  #ebc8fb;
+  margin: 15px 0;
+  line-height: 1.5;
+  font-size: 75px;
+}
+
+#about .conteudo p{
+  font-size: 25px;
+  font-family: 'Milk Kids';
+  color: #ffffff;
+  text-shadow: 1px 3px 5px  #ff9bda;
+  margin: 10px 0;
+  line-height: 1.0;
+}
+
+#about .site h3{
+  font-family: 'Fairy Clovers';
+  color: #ff9bda;
+  text-shadow: 1px 3px 5px  #ebc8fb;
+  margin: 15px 0;
+  line-height: 1.5;
+  font-size: 65px;
+}
+
+#about .site p{
+  font-size: 25px;
+  font-family: 'Milk Kids';
+  color: #ffffff;
+  text-shadow: 1px 3px 5px  #ff9bda;
+  margin: 10px 0;
+  line-height: 0.5;
+}
+
+#about .sobre h3{
+  font-family: 'Fairy Clovers';
+  color: #ff9bda;
+  text-shadow: 1px 3px 5px  #ebc8fb;
+  margin: 15px 0;
+  line-height: 1.5;
+  font-size: 65px;
+}
+
+#about .contato h3{
+  font-family: 'Fairy Clovers';
+  color: #ff9bda;
+  text-shadow: 1px 3px 5px  #ebc8fb;
+  margin: 10px 0;
+  line-height: 1.5;
+  font-size: 50px;
+}
+
+#about .sobre p{
+  font-size: 25px;
+  font-family: 'Milk Kids';
+  color: #ffffff;
+  text-shadow: 1px 3px 5px  #ff9bda;
+  margin: 10px 0;
+  line-height: 1.0;
+}
+
+/* deixar o contato mais bonitinhoo, colocando a mesma cor da fonte */
+#about .contato a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: inherit;
+}
+
+#about .contato h3{
+  margin: 15px 0;
+  line-height: 1.5;
+  font-size: 65px;
+}
+
+#about .contato i {
+  font-size: 45px;
+  color: #ff9bda; 
+  text-shadow: 1px 3px #ffffff;
+}
+
+#about .contato p {
+  font-family: "Milk Kids";
+  color: #ffffff;
+  text-shadow: 1px 3px 5px  #ff9bda;
+  margin: 10px 0;
+}
+#about .conteudo,
+.site,
+.sobre,
+.contato {
+  margin-bottom: 50px; 
+}
+
+
+/* estilizar a pag incial */
+
+#index .conteiner{
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+#index .conteudo h1{
+  font-family:'Fairy Clovers';
+  color: #ff9bda;
+  margin: 15px 0;
+  line-height: 1.5;
+  font-size: 75px;
+  text-shadow: 1px 3px 5px  #ebc8fb;
+} 
+
+#index .conteudo h2{
+  font-size: 45px;
+  font-family: 'Milk Kids';
+  color: #ffffff;
+  margin: 15px 0;
+  line-height: 1.8;
+  text-shadow: 1px 3px 5px #ff9bda;
+}
+
+#index .jogos p{
+  font-size: 25px;
+  font-family: 'Milk Kids';
+  color: #ffffff;
+  margin: 20px 0;
+  line-height: 4.0;
+  text-shadow: 1px 2px 5px #ff9bda;
+}
+
+#index .conteudo{
+  margin-bottom: 60px; 
+}
+
+/* estilizar o formulario */
+
+#form .conteudo{
+  font-family:'American Captain' ;
+  text-align: center;
+  font-size: 50px;
+  margin: 15px 0;
+  line-height: 1.2;
+  color: #ffffff;
+  text-shadow: 1px 3px 5px  #ff9bda;
+}
+
+#form .conteudo h1{
+font-family:'Fairy Clovers';
+color: #ff9bda;
+margin: 15px 0;
+line-height: 1.5;
+font-size: 75px;
+text-shadow: 1px 3px 5px  #ebc8fb;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+#formAction .conteudo{
+  font-family:'American Captain';
+  color: #ffffff;
+  text-shadow: 1px 3px 5px  #ff9bda;
+  text-align: left;
+  font-size: 50px;
+  line-height: 1.2;
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start;      
+  width: fit-content;
+  margin-right: auto;
+  padding-left: 20px;
+}
+
+#formAction ul li{
+  list-style: none;
+}
+
+#formAction .conteudo h1{
+  font-family:'Fairy Clovers' ;
+  color: #ff9bda;
+  margin-bottom: 50px; 
+  text-shadow: 1px 3px 5px  #ebc8fb;
+}

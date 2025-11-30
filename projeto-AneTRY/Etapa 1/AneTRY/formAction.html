@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>AneTRY - Sua Lista</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body id="formAction">
+  <!-- crio o conteiner para divisão e organização e para chamar a página e um id para melhor estilização no css -->
+    <div class="conteiner">
+
+      <!-- crio um menu simples para navegação entre páginas -->
+    <div class="menu">
+      <nav>
+        <ul>
+          <li><a href="index.html">
+            
+          <img src="img/sakura.png" alt="Sakura" class="icon-flor">
+          Início
+
+          </a>
+        </li>
+          <li><a href="form.html">
+            <img src="img/sakura.png" alt="Sakura" class="icon-flor">
+            Avaliar um Jogo
+          </a>
+          <li><a href="about.html">
+          <img src="img/sakura.png" alt="Sakura" class="icon-flor">
+          Conheça AneTRY
+          </a>
+        </li>
+        </ul>
+      </nav>
+    </div>
+  <!-- puxa o formulário e preenche com as informções dadas pelo usuário -->
+    <div class="conteudo">
+      <!-- crio ouma classe para estilizar o nome da pagina -->
+      <h1>Sua Análise:</h1>
+      <ul>
+        <li><strong> Nome do Jogo:  </strong><span id="resultado-nome"></span></li>
+        <li><strong> Nota:  </strong><span id="resultado-nota"></span></li>
+        <li><strong> Review:  </strong><span id="resultado-review"></span></li>
+      </ul>
+    </div>
+  </div>
+<!-- passo as informações digitadas pelo usuário para o site, via o método get/usando js -->
+  <script src="js/formAction.js"></script>
+</body>
+</html>

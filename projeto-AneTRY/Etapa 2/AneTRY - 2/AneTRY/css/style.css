@@ -1,0 +1,384 @@
+/* r */
+@font-face {
+  font-family: 'mine';
+  src: url('../fonts/Minercraftory.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Milk Kids';
+  src: url('../fonts/Milk Kids.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fairy Clovers';
+  src: url('../fonts/Fairy Clovers.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* Estilizando o site em geral e a navbar */
+
+html, body {
+  font-family: 'Milk Kids', sans-serif;
+  background-color: #faf1fe;
+  color: #ebc8fb;
+}
+
+.navbar {
+  background-color: #ebc8fb;
+}
+
+.navbar .nav-link, .navbar {
+  color: #faf1fe;
+  font-family: 'Milk Kids';
+  font-size: 30px;
+}
+
+.navbar .navbar-brand {
+  color: #faf1fe !important;
+  text-shadow: 1px 2px 4px #ff9bda;
+  font-family: 'mine';
+  font-size: 35px;
+}
+
+.navbar .navbar-brand:hover {
+  color: #faf1fe !important; 
+}
+
+* .container-fluid{
+  background-color: #ebc8fb; 
+}
+
+* .conteudo {
+  background-color: #faf1fe;
+}
+
+/* Estilizando o index.php */
+
+#index .conteudo h1{
+  font-family: 'Fairy Clovers', sans-serif;
+  color: #ff9bda;
+  text-shadow: 1px 2px 3px #ff9bda ;
+  text-align: center;
+  font-size: 80px;
+}
+#index .conteudo h2{
+  font-family: 'Milk Kids', sans-serif;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px #ff9bda ;
+  text-align: center;
+  font-size: 50px;
+}
+
+#index .conteudo p{
+  font-family: 'Milk Kids', sans-serif;
+  color: #ffffff;
+  text-shadow: 1px 2px 5px #ff9bda ;
+  text-align: center;
+  font-size: 35px;
+}
+
+#index .carousel-container {
+  max-width: 1000px;
+  margin: 30px auto;
+}
+
+#index .carousel-caption p{
+  font-family: 'mine', sans-serif;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px #ff9bda;
+  font-size: 20px;
+}
+
+#index .carousel-caption h5{
+  font-family: 'mine', sans-serif;
+  color: #ffffff !important;
+  text-shadow: 1px 1px 2px #ff9bda !important;
+  font-size: 20px;
+}
+
+#index .carousel-inner img {
+  width: 100%;
+  height: auto;
+}
+
+/* Estilizando o form.php */
+
+#form .conteudo h1 {
+  font-family: 'Fairy Clovers', sans-serif;
+  color: #ff9bda;
+  text-shadow: 1px 2px 3px #ff9bda ;
+  text-align: center;
+  font-size: 50px;
+}
+
+#form .conteudo .mb-3{
+  font-family: 'Milk Kids', sans-serif;
+  color: #ff9bda;
+  text-shadow: 1px 2px 3px #ff9bda ;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* Estilizando o formAction.php */
+
+#formAction .conteudo h1 {
+  font-family: 'Fairy Clovers', sans-serif;
+  color: #ff9bda;
+  text-shadow: 1px 2px 3px #ff9bda ;
+  text-align: center;
+  font-size: 50px;
+}
+
+#formAction .conteudo ul li{
+  font-family: 'Milk Kids', sans-serif;
+  color: #ffffff;
+  text-shadow: 1px 2px 3px #ff9bda ;
+  text-align: center;
+  font-size: 50px;
+  text-align: left; 
+}
+
+#formAction .conteudo ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.alert {
+  margin: 20px auto;
+  max-width: 500px;
+  text-align: center;
+}
+
+/* Estilizando os botões */
+
+.btn-outline-rosa {
+  color: #fe7bc2;
+  border-color: #fe7bc2;
+  background-color: transparent;
+}
+
+.btn-outline-rosa:hover {
+  background-color: #fe7bc2;
+  color: #ffffff;
+  border-color: #fe7bc2;
+}
+
+.btn-outline-branco {
+  color: #ffffff;
+  border-color: #ffffff;
+  background-color: transparent;
+}
+
+.btn-outline-branco:hover {
+  background-color: #ffffff;
+  color: #fe7bc2;
+  border-color: #ffffff;
+}
+
+/* Estilizando o sua_lista.php */
+
+
+#sua_lista .conteudo p{
+  font-family: 'Milk Kids', sans-serif;
+  color: #ffffff;
+  text-shadow: 1px 2px 3px #ff9bda ;
+  text-align: center;
+  font-size: 50px;
+}
+#sua_lista p{
+  text-align: center;
+}
+#sua_lista .conteudo h1{
+  font-family: 'Fairy Clovers', sans-serif;
+  color: #ff9bda;
+  text-shadow: 1px 2px 3px #ff9bda ;
+  text-align: center;
+  font-size: 50px;
+}
+
+#sua_lista .conteudo {
+  max-width: 1000px;  
+  min-width: 400px;
+  margin: 0 auto;  
+  padding: 10px;
+}
+
+#sua_lista table {
+  width: 100%;
+  min-width: 700px;
+  padding: 10px;
+  border-collapse: collapse; 
+  font-family: 'Milk Kids', sans-serif;
+  color: #000000;
+  list-style: none;
+  max-width: 900px;
+}
+/* responsividade para celulares */
+
+div#responsive{
+  width: 100%;
+  overflow-x: auto;
+}
+
+@media (max-width: 768px) {
+  #sua_lista table {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  #sua_lista th,
+  #sua_lista td {
+    padding: 6px;
+  }
+}
+
+th, td {
+  border: 1px solid #ffffff; 
+  padding: 8px;        
+  text-align: left;
+}
+
+th {
+  background-color:#fe7bc2;
+  color: rgb(0, 0, 0);
+}
+
+tr:hover td {
+  background-color: #fe7bc2;  
+  color: rgb(0, 0, 0);            
+}
+
+/* Estilizando o editar_avaliação.php */
+
+#editar {
+  background-color: #faf1fe;
+  min-height: 100vh; 
+  padding: 20px 0; 
+}
+#editar .container {
+  background-color: transparent !important;
+}
+#editar .conteudo h1{
+  font-family: 'Fairy Clovers', sans-serif;
+  color: #ff9bda;
+  text-shadow: 1px 2px 3px #ff9bda ;
+  text-align: center;
+  font-size: 50px;
+}
+
+#editar .conteudo .mb-3{
+  font-family: 'Milk Kids', sans-serif;
+  color: #ff9bda;
+  text-shadow: 1px 2px 3px #ff9bda ;
+  text-align: center;
+  font-size: 30px;
+}
+
+#editar .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: #ebc8fb;
+  min-height: 60px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+#editar .btn {
+  color: #fe7bc2;
+  border-color: #fe7bc2;
+  background-color: transparent;
+}
+
+#editar .btn:hover {
+  background-color: #fe7bc2;
+  color: #ffffff;
+  border-color: #fe7bc2;
+}
+#editar .alert {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1100; 
+  max-width: 400px;
+  width: 90%;
+  padding: 20px;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  color: #155724;
+  text-align: center;
+}
+
+#editar .text-center .btn {
+  position: fixed;
+  top: calc(50% + 80px);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1100;
+  display: block;
+  padding: 8px 20px;
+  border-radius: 5px;
+  cursor: pointer; 
+}
+
+
+#editar .alert .btn-outline-rosa:hover {
+  background-color: #fe7bc2;
+  color: white;
+}
+
+
+/* Estilizando o editar_avaliação.php */
+
+
+#about .conteudo h1{
+  font-family: 'Fairy Clovers', sans-serif;
+  color: #ff9bda;
+  text-shadow: 1px 2px 3px #ff9bda ;
+  text-align: center;
+  font-size: 50px;
+}
+
+#about .conteudo p{
+  font-family: 'Milk Kids', sans-serif;
+  color: #ffffff;
+  text-shadow: 1px 2px 3px #ff9bda ;
+  text-align: center;
+  font-size: 30px;
+}
+
+#about .accordion .card {
+  background-color: #faf1fe !important;
+}
+
+#about .accordion{
+  text-align: center;
+}
+#about .accordion .card-body{
+  font-family: 'Milk Kids', sans-serif;
+  color: #ffffff;
+  text-shadow: 1px 2px 3px #ff9bda ;
+  text-align: center;
+  font-size: 30px;
+}
+
+#about a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#about .fa{
+  color: #ff9bda;
+}

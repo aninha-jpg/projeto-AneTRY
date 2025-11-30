@@ -8,7 +8,7 @@ Na segunda etapa, o projeto evolui e utilizei HTML+ PHP + CSS + Framework Bootst
 
 IDE Utilizada: Microsoft VS Code.
 
-Tecnologias Utilizadas: HTML5, JavaScript, CSS3, PHP, SQL(via PHPmyadmin), Bootstrap 4, XAMPP.
+Tecnologias Utilizadas: HTML5, JavaScript, CSS3, PHP, SQL(MySQL/MariaDB via PHPmyadmin), Bootstrap 4, XAMPP.
 
 OBS: Para rodar o projeto localmente, é necessário ter o XAMPP instalado, iniciar o servidor Apache e MySQL, e importar o banco de dados via phpMyAdmin.
 

@@ -12,6 +12,8 @@ Tecnologias Utilizadas: HTML5, JavaScript, CSS3, PHP, SQL(MySQL/MariaDB via PHPm
 
 OBS: Para rodar o projeto localmente, é necessário ter o XAMPP instalado, iniciar o servidor Apache e MySQL, e importar o banco de dados via phpMyAdmin.
 
+Demonstração Etapa 1: https://youtu.be/gM8hZJVCSno.
+Demonstração Etapa 2: https://youtu.be/xh1yux5ytNs.
 
 Status: Projeto concluído e utilizado somente para fins acadêmicos.
 Data: 06/07/2025.
